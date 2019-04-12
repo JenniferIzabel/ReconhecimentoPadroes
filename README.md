@@ -11,4 +11,4 @@ Alunos:
 
 Professor:
 
-     Rodrigo Hubner
+     Rodrigo Hübner
