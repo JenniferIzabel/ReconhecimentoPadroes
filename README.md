@@ -1,11 +1,8 @@
 # ReconhecimentoPadroes
 Repositório da disciplina de Reconhecimento de Padrões
 
-Alunos: 
-
+- Alunos: 
 Gabriel Cordeiro Menegat
-
 Jennifer Izabel Rodrigues de Souza
-        
-        
+               
 Professor: Rodrigo Hubner
