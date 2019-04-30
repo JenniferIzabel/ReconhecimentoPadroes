@@ -3,7 +3,7 @@ Repositório da disciplina de Reconhecimento de Padrões
 
 Alunos: 
 
-     Gabriel Cordeiro Menegat
+     Gabriel Corrêa Cordeiro
 
      Jennifer Izabel Rodrigues de Souza
 
