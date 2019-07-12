@@ -14,13 +14,13 @@ import mne
 import matplotlib.pyplot as plt
 
 
-ch_names_1 = ['index', 'PO3', 'PO4', 'P8', 'O1', 'O2', 'P7', '7', '8', 'x', 'y', 'z', 'tempo']
+ch_names_1 = ['index', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', 'time']
 ch_names_utils = ['PO3', 'PO4', 'P8', 'O1', 'O2', 'P7']
 buffer_size = 5
 
 def read_remove_eletro(nameData):
     readed = pand.read_csv(nameData, skiprows=6, names=ch_names_1)
-    readed = readed.drop(['index','7', '8', 'x', 'y', 'z', 'tempo'], axis=1)
+    readed = readed.drop(['index','7', '8', '10', '11', '12', 'time'], axis=1)
     len_readed = len(readed)
     return len_readed, readed.transpose()
 
